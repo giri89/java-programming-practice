@@ -13,7 +13,5 @@ public class EvenOddWithoutModulo {
         } else {
             System.out.println(n + " is odd");
         }
-
     }
-
 }
