@@ -1,6 +1,6 @@
 # ☕ Java Programming Practice
 
-A structured collection of Java programs covering core concepts — organized by topic for easy navigation and learning reference.
+A structured collection of Java programs covering core concepts - organized by topic for easy navigation and learning reference.
 
 ---
 
@@ -52,7 +52,7 @@ java-programming-practice/
 
 ## 🎯 Purpose
 
-This repository is my personal Java practice log — built while learning core Java concepts from scratch. Each folder represents a topic with multiple programs to strengthen understanding.
+This repository is my personal Java practice log - built while learning core Java concepts from scratch. Each folder represents a topic with multiple programs to strengthen understanding.
 
 ---
 
