@@ -11,8 +11,7 @@ public class FinalBooleanInfiniteLoop {
         while (b) {
             System.out.println("hi");
         }
-
         // System.out.println("hello"); // unreachable code → compile time error
     }
-
 }
+//→  

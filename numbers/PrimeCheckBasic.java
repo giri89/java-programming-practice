@@ -20,9 +20,8 @@ public class PrimeCheckBasic {
             if(n%i==0)
                 count++;
         }
-
+        
         return count == 2;
-
+        
     }
-
 }

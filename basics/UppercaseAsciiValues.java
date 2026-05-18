@@ -9,9 +9,6 @@ public class UppercaseAsciiValues {
         for (char ch = 'A'; ch <= 'Z'; ch++) {
 
             System.out.println(ch + " " + (int) ch);
-
         }
-
     }
-
 }

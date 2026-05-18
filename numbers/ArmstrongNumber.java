@@ -1,11 +1,9 @@
 package numbers;
 
 public class ArmstrongNumber {
-
     public static void main(String[] args) {
         System.out.println(isArmStrong(153));
     }
-
     static boolean isArmStrong(int n) {
         int digitCount = numberOfDigit(n);
         int temp = n;
@@ -18,7 +16,6 @@ public class ArmstrongNumber {
         }
         return temp == sum;
     }
-
     static int numberOfDigit(int n) {
         int count = 0;
         while (n > 0) {
@@ -27,7 +24,6 @@ public class ArmstrongNumber {
         }
         return count;
     }
-
     static int power(int x, int y) {
         int res = 1;
         for (int i = 1; i <= y; i++) {
