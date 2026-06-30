@@ -1,0 +1,28 @@
+package strings;
+
+public class ToggleCase {
+    public static void main(String[] args) {
+
+        String str = "JaVa";
+
+        System.out.println(toggle(str));
+    }
+
+    static String toggle(String str) {
+
+        String result = "";
+
+        for (int i = 0; i < str.length(); i++) {
+
+            char ch = str.charAt(i);
+
+            if (Character.isUpperCase(ch)) {
+                result += Character.toLowerCase(ch);
+            } else if (Character.isLowerCase(ch)) {
+                result += Character.toUpperCase(ch);
+            }
+        }
+
+        return result;
+    }
+}
